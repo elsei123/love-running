@@ -22,6 +22,10 @@ body {
 header {
     background-color: lightcoral;
 }
+
+h1 {
+    font-family: 'oswald', sans-serif;
+}
 main {
     background-color: lightblue;
     /* make main element take up amy surplus space to push footer dawn */
