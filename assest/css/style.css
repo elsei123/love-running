@@ -87,9 +87,23 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
-footer {
-    background-color: orange;
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 160%;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
 
 /* media query: tablets and larger (768px and up) */
 @media screen (min-width: 768px) {
@@ -122,5 +136,11 @@ footer {
     main {
         /* push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+}
+/* large divices (laptops and desktops, 992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
